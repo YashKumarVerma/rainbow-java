@@ -1,5 +1,6 @@
 Runner.class: Runner.java packages/rainbow/rainbow.class
 	javac Runner.java
+	make run
 
 packages/rainbow/rainbow.class: packages/rainbow/rainbow.java 
 	javac packages/rainbow/rainbow.java

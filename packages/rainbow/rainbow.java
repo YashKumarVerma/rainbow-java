@@ -1,7 +1,62 @@
 package packages.rainbow;
 
 public class rainbow {
-    public static String bold(String s) {
-        return "\\e[3m" + s + "\\e[0m";
+    /** global declarations */
+
+    private static final String RESET = "\u001B[0m";
+
+    /** color declarations */
+    private static final String COLOR_BLACK = "\u001B[30m";
+    private static final String COLOR_RED = "\u001B[31m";
+    private static final String COLOR_GREEN = "\u001B[32m";
+    private static final String COLOR_YELLOW = "\u001B[33m";
+    private static final String COLOR_BLUE = "\u001B[34m";
+    private static final String COLOR_PURPLE = "\u001B[35m";
+    private static final String COLOR_CYAN = "\u001B[36m";
+    private static final String COLOR_WHITE = "\u001B[37m";
+
+    /** formatting declarations */
+    private static final String BOLD = "\u001B[1m";
+    private static final String DIM = "\u001B[2m";
+    private static final String ITALIC = "\u001B[3m";
+    private static final String UNDERLINE = "\u001B[4m";
+    private static final String BLINK = "\u001B[5m";
+    private static final String LIGHTEN = "\u001B[6m";
+    private static final String INVERTED = "\u001B[7m";
+    private static final String HIDDEN = "\u001B[8m";
+
+    /** public user consumable functions */
+
+    public static String bold(String string) {
+        return BOLD + string + RESET;
     }
+
+    public static String dim(String string) {
+        return DIM + string + RESET;
+    }
+
+    public static String italic(String string) {
+        return ITALIC + string + RESET;
+    }
+
+    public static String underline(String string) {
+        return UNDERLINE + string + RESET;
+    }
+
+    public static String blink(String string) {
+        return BLINK + string + RESET;
+    }
+
+    public static String lighten(String string) {
+        return LIGHTEN + string + RESET;
+    }
+
+    public static String inverted(String string) {
+        return INVERTED + string + RESET;
+    }
+
+    public static String hidden(String string) {
+        return HIDDEN + string + RESET;
+    }
+
 }
