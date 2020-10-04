@@ -1,5 +1,7 @@
 # RAINBOW-JAVA :rainbow: 
 
+![Smoke Tests](https://img.shields.io/github/workflow/status/YashKumarVerma/rainbow-java/Smoke%20Test?label=Smoke%20Tests&logo=github&style=for-the-badge)
+
 a quick and handy java package to format CLI output in java applications. The package provides easy to call methods with names like `.bold`, `.italic`, `.underline` and many more. 
 
 The packages also provides methods to color the output in different colors as well. 
