@@ -4,6 +4,10 @@ a quick and handy java package to format CLI output in java applications. The pa
 
 The packages also provides methods to color the output in different colors as well. 
 
+**Example**:
+
+![https://i.imgur.com/raoGykP.png](https://i.imgur.com/raoGykP.png)
+
 ## Project Structure
 ```
 | packages
