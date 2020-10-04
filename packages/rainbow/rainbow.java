@@ -59,4 +59,36 @@ public class rainbow {
         return HIDDEN + string + RESET;
     }
 
+    public static String black(String string) {
+        return COLOR_BLACK + string + RESET;
+    }
+
+    public static String red(String string) {
+        return COLOR_RED + string + RESET;
+    }
+
+    public static String green(String string) {
+        return COLOR_GREEN + string + RESET;
+    }
+
+    public static String yellow(String string) {
+        return COLOR_YELLOW + string + RESET;
+    }
+
+    public static String blue(String string) {
+        return COLOR_BLUE + string + RESET;
+    }
+
+    public static String purple(String string) {
+        return COLOR_PURPLE + string + RESET;
+    }
+
+    public static String cyan(String string) {
+        return COLOR_CYAN + string + RESET;
+    }
+
+    public static String white(String string) {
+        return COLOR_WHITE + string + RESET;
+    }
+
 }
