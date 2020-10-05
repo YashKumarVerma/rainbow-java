@@ -23,5 +23,6 @@ public class Runner {
         System.out.println("purple : " + rainbow.purple("purple"));
         System.out.println("cyan : " + rainbow.cyan("cyan"));
         System.out.println("white : " + rainbow.white("white"));
+        System.out.println("rainbow : " + rainbow.rainbow("rainbow"));
     }
 }

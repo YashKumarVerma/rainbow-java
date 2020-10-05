@@ -90,5 +90,15 @@ public class rainbow {
     public static String white(String string) {
         return COLOR_WHITE + string + RESET;
     }
-
+    
+    public static String rainbow(String string) {
+    	String res = "";
+    	String[] rainbow_Colors = new String[] { COLOR_RED, COLOR_YELLOW, COLOR_GREEN, COLOR_CYAN, COLOR_BLUE, COLOR_PURPLE };
+        char[] cont = string.toCharArray();
+        for (int i = 0; i<string.length(); i++){
+            int color = i % rainbow_Colors.length;
+            res += rainbow_Colors[color] + cont[i];
+        }
+        return res;
+    }
 }
